@@ -1,0 +1,13 @@
+@import "../../assets/app.colors.scss";
+
+.header {
+  background-color: $primary-color-ten !important;
+  position: fixed !important;
+  top: 0 !important;
+  z-index: 2 !important;
+}
+
+.logo {
+  text-decoration: none !important;
+  color: $primary-color-one !important;
+}

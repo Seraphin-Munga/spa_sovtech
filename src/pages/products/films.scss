@@ -1,0 +1,14 @@
+@import "../../assets/app.buttons.scss";
+@import "../../assets/app.colors.scss";
+
+.container {
+  margin-top: 80px;
+}
+
+.btn-view {
+  @include buttonPrimary($primary-color-one);
+}
+
+h1 {
+  text-align: center;
+}

@@ -1,0 +1,11 @@
+@import "../../assets/app.colors.scss";
+
+.footer {
+  position: fixed !important;
+  bottom: 0 !important;
+  background-color: $primary-color-seven !important;
+}
+
+.title {
+  text-align: center !important;
+}

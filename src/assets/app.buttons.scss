@@ -1,0 +1,9 @@
+@import "./app.colors.scss";
+
+@mixin buttonPrimary($colour) {
+  // width: 182px;
+  height: 38px !important;
+  border-radius: 22px;
+  background-color: $primary-color-three;
+  color: $colour;
+}
