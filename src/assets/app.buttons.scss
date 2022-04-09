@@ -7,3 +7,19 @@
   background-color: $primary-color-three;
   color: $colour;
 }
+
+
+@mixin button($colourOne, $coulorTwo, $coulorThree) {
+  border: none;
+  font-weight: bold;
+  background-color: $colourOne !important;
+  color: $coulorThree;
+  border-radius: 22px;
+  height: 38px !important;
+
+  &:hover {
+      background-color: $coulorTwo !important;
+      color: $coulorThree;
+      border: 1px solid $colourOne !important;
+  }
+}
