@@ -25,7 +25,7 @@ const FormRow = (props: any) => {
   const renderProducts = getFilms?.results.map((item: any) => {
     return (
       <Grid key={item.episode_id} item xs={3}>
-        <Card sx={{ maxWidth: 345 }}>
+        <Card className="card" onClick={() => viewBtn(item.episode_id)} sx={{ maxWidth: 345 }}>
           <CardMedia
             component="img"
             height="140"
